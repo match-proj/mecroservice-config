@@ -6,4 +6,4 @@ ADD /$JAR_NAME $HOME_PATH/app.jar
 
 WORKDIR $HOME_PATH
 
-ENTRYPOINT ["java","-jar","app.jar"]
+ENTRYPOINT [ "java" , "-jar" , "app.jar" ]

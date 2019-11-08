@@ -12,7 +12,6 @@ spring:
         git:
           uri: https://github.com/match-proj/match-config-respo.git
           search-paths: respo
-
 eureka:
   instance:
     prefer-ip-address: true
@@ -20,5 +19,5 @@ eureka:
     lease-expiration-duration-in-seconds: 20
   client:
     serviceUrl:
-      defaultZone: http://microservice-eureka:7000/eureka
+      defaultZone: http://sufeng.io:7000/eureka
     registry-fetch-interval-seconds: 10
